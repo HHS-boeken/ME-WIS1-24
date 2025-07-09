@@ -1,6 +1,4 @@
 (intro)=
-# Welcome to the Template Book
+# Welkom bij de cursus <br> **ME-WIS1-24: Wiskunde 1**
 
-_This is the first page the student will see when opening the url._
-
-This book can be used as a template for other books. It includes a starter package of the software developed by the TeachBooks initiative and some exercises to get you going!
+Dit is de `2025-2026`-versie van het leerboek. Ga naar [/ME-WIS1-24](https://hhs-boeken.github.io/ME-WIS1-24) om de meest recente versie van dit boek te bekijken, of pas het jaartal in [/ME-WIS1-24/2526](https://hhs-boeken.github.io/ME-WIS1-24/2526/intro.html) aan naar het jaar waarin je de module hebt gevolgd.
