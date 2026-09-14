@@ -1,0 +1,1 @@
+# 1.3 Snijpunten van Lineaire functies 
