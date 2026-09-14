@@ -7,10 +7,26 @@ parts:
       #sections:
     - file: 2_Functies/H1_Lineaire_functies/Lineaire_functies.md
       sections:
+
       - file: 2_Functies/H1_Lineaire_functies/Lineaire_functies_en_grafieken.md
+      sections:
+        - file: 2_Functies/H1_Lineaire_functies/Lineaire_functies_en_grafieken_opgaven.md
+        - file: 2_Functies/H1_Lineaire_functies/Lineaire_functies_en_grafieken_uitwerkingen.md
+
       - file: 2_Functies/H1_Lineaire_functies/Lineaire_functies_opstellen.md
-      - file: 2_Functies/H1_Lineaire_functies/Snijpunten_van_Lineaire_functies.md
-      - file: 2_Functies/H1_Lineaire_functies/Transformaties_van_Lineaire_functies.md
+      sections:
+        - file: 2_Functies/H1_Lineaire_functies/Lineaire_functies_opstellen_opgaven.md
+        - file: 2_Functies/H1_Lineaire_functies/Lineaire_functies_opstellen_uitwerkingen.md
+
+      - file: 2_Functies/H1_Lineaire_functies/Snijpunten_van_lineaire_functies.md
+      sections:
+        - file: 2_Functies/H1_Lineaire_functies/Snijpunten_van_lineaire_functies_opgaven.md
+        - file: 2_Functies/H1_Lineaire_functies/Snijpunten_van_lineaire_functies_uitwerkingen.md
+
+      - file: 2_Functies/H1_Lineaire_functies/Transformaties_van_lineaire_functies.md
+      sections:
+        - file: 2_Functies/H1_Lineaire_functies/Transformaties_van_lineaire_functies_opgaven.md
+        - file: 2_Functies/H1_Lineaire_functies/Transformaties_van_lineaire_functies_uitwerkingen.md  
 
     - file: 2_Functies/H2_Kwadratische_functies/Kwadratische_functies.md
     - file: 2_Functies/H3_Machtsfuncties/Machtsfuncties.md
