@@ -5,7 +5,7 @@ parts:
   - caption: Functies
     chapters:
     - file: some_content/overview.md
-      sections:
+      #sections:
     - file: 2_Functies/H1_Lineaire_functies/Lineaire_functies.md
     - file: 2_Functies/H2_Kwadratische_functies/Kwadratische_functies.md
     - file: 2_Functies/H3_Machtsfuncties/Machtsfuncties.md
