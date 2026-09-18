@@ -2,21 +2,36 @@ format: jb-book
 root: intro.md
 
 parts:
-  - caption: Contents
+  - caption: Functies
     chapters:
-    - file: some_content/overview.md
+      #sections:
+    - file: 2_Functies/H1_Lineaire_functies/Lineaire_functies.md
       sections:
-      - file: some_content/text_and_code.ipynb
-      - file: some_content/test.ipynb
-    - file: exercises
-      sections:
-      - file: exercises/001.md
-      - file: exercises/002.md
-      - file: exercises/003.md
-      - file: exercises/004.md
-      - file: exercises/005.md
-      - file: exercises/006.md
-      - file: exercises/summary
-    - file: references.md
-    - file: changelog.md
-    - file: credits.md
+
+      - file: 2_Functies/H1_Lineaire_functies/Lineaire_functies_en_grafieken.md
+        sections:
+        - file: 2_Functies/H1_Lineaire_functies/Lineaire_functies_en_grafieken_opgaven.md
+        - file: 2_Functies/H1_Lineaire_functies/Lineaire_functies_en_grafieken_uitwerkingen.md
+
+      - file: 2_Functies/H1_Lineaire_functies/Lineaire_functies_opstellen.md
+        sections:
+        - file: 2_Functies/H1_Lineaire_functies/Lineaire_functies_opstellen_opgaven.md
+        - file: 2_Functies/H1_Lineaire_functies/Lineaire_functies_opstellen_uitwerkingen.md
+
+      - file: 2_Functies/H1_Lineaire_functies/Snijpunten_van_lineaire_functies.md
+        sections:
+        - file: 2_Functies/H1_Lineaire_functies/Snijpunten_van_lineaire_functies_opgaven.md
+        - file: 2_Functies/H1_Lineaire_functies/Snijpunten_van_lineaire_functies_uitwerkingen.md
+
+      - file: 2_Functies/H1_Lineaire_functies/Transformaties_van_lineaire_functies.md
+        sections:
+        - file: 2_Functies/H1_Lineaire_functies/Transformaties_van_lineaire_functies_opgaven.md
+        - file: 2_Functies/H1_Lineaire_functies/Transformaties_van_lineaire_functies_uitwerkingen.md  
+
+    - file: 2_Functies/H2_Kwadratische_functies/Kwadratische_functies.md
+    - file: 2_Functies/H3_Machtsfuncties/Machtsfuncties.md
+    - file: 2_Functies/H4_Wortel_functies/Wortel_functies.md
+    - file: 2_Functies/H5_Goniometrische_functies/Goniometrische_functies.md
+    - file: 2_Functies/H6_Exponentiele_functies/Exponentiele_functies.md
+    - file: 2_Functies/H7_Logaritmische_functies/Logaritmische_functies.md
+    - file: 2_Functies/H8_Gebroken_functies/Gebroken_functies.md
