@@ -171,7 +171,7 @@ x&=4
 \end{aligned} 
 $$
 
-Het snijpunt met de $x$-as is:
+Het snijpunt met de lijn $y=11$ is:
 
 $$
 S(4,11)
@@ -214,7 +214,7 @@ x&=\dfrac{-6}{-3} = 2
 \end{aligned} 
 $$
 
-Het snijpunt met de $x$-as is:
+Het snijpunt met de lijn $y=-10$ is:
 
 $$
 S(2,-10)
@@ -258,7 +258,7 @@ x&=\dfrac{7}{4}
 \end{aligned} 
 $$
 
-Het snijpunt met de $x$-as is:
+Het snijpunt met de lijn $y=2$ is:
 
 $$
 S\left( \dfrac{7}{4},2 \right)
