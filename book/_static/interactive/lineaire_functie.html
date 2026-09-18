@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- JSXGraph -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraph.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraphcore.js"></script>
+
+    <!-- MathJax voor LaTeX -->
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+    <style>
+
+        body {
+            margin: 0;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+            background: transparent;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* Grafiek */
+        #jxgbox {
+            width: 100%;
+            aspect-ratio: 4 / 3;
+            border: none;
+        }
+
+        /* Algemene formule */
+        .general-formula {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 22px;
+        }
+
+        /* Gebied met sliders */
+        .controls {
+            padding: 0 20px;
+        }
+
+        .control-row {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin: 14px 0;
+        }
+
+        .parameter {
+            width: 25px;
+            font-size: 18px;
+            font-style: italic;
+        }
+
+        .slider {
+            flex: 1;
+        }
+
+        .value {
+            width: 55px;
+            font-size: 18px;
+            text-align: left;
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+<div class="container">
+
+    <!-- Grafiek -->
+    <div id="jxgbox" class="jxgbox"></div>
+
+
+    <!-- Algemene formule -->
+    <div class="general-formula">
+        \( f(x) = ax + b \)
+    </div>
+
+
+    <!-- Sliders -->
+    <div class="controls">
+
+        <!-- Slider a -->
+        <div class="control-row">
+
+            <span class="parameter">a</span>
+
+            <input
+                id="slider-a"
+                class="slider"
+                type="range"
+                min="-5"
+                max="5"
+                step="0.5"
+                value="2">
+
+            <span class="value">
+                = <span id="value-a">2</span>
+            </span>
+
+        </div>
+
+
+        <!-- Slider b -->
+        <div class="control-row">
+
+            <span class="parameter">b</span>
+
+            <input
+                id="slider-b"
+                class="slider"
+                type="range"
+                min="-5"
+                max="5"
+                step="0.5"
+                value="1">
+
+            <span class="value">
+                = <span id="value-b">1</span>
+            </span>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script>
+
+    // --------------------------------------------------
+    // Beginwaarden van a en b
+    // --------------------------------------------------
+
+    let a = 2;
+    let b = 1;
+
+
+    // --------------------------------------------------
+    // Assenstelsel
+    // --------------------------------------------------
+
+    const board = JXG.JSXGraph.initBoard('jxgbox', {
+
+        boundingbox: [-6, 6, 6, -6],
+
+        keepaspectratio: true,
+
+        axis: false,
+
+        grid: true,
+
+        showCopyright: false,
+        showNavigation: false,
+
+        pan: {
+            enabled: false
+        },
+
+        zoom: {
+            enabled: false
+        }
+
+    });
+
+
+    // --------------------------------------------------
+    // x-as
+    // --------------------------------------------------
+
+    board.create('axis', [[0, 0], [1, 0]], {
+
+        name: 'x',
+
+        withLabel: true,
+
+        label: {
+            position: 'rt',
+            offset: [-15, 15],
+            fontSize: 18
+        },
+
+        ticks: {
+            ticksDistance: 1,
+            insertTicks: false,
+            drawLabels: true,
+            minorTicks: 0,
+
+            label: {
+                offset: [-4, -16]
+            }
+        },
+
+        strokeWidth: 1.5
+
+    });
+
+
+    // --------------------------------------------------
+    // y-as
+    // --------------------------------------------------
+
+    board.create('axis', [[0, 0], [0, 1]], {
+
+        name: 'y',
+
+        withLabel: true,
+
+        label: {
+            position: 'rt',
+            offset: [15, -15],
+            fontSize: 18
+        },
+
+        ticks: {
+            ticksDistance: 1,
+            insertTicks: false,
+            drawLabels: true,
+            minorTicks: 0,
+
+            label: {
+                offset: [-20, -2]
+            }
+        },
+
+        strokeWidth: 1.5
+
+    });
+
+
+    // --------------------------------------------------
+    // Grafiek f(x) = ax + b
+    // --------------------------------------------------
+
+    board.create('functiongraph', [
+
+        function(x) {
+            return a * x + b;
+        }
+
+    ], {
+
+        strokeWidth: 3
+
+    });
+
+
+    // --------------------------------------------------
+    // Functievoorschrift netjes schrijven
+    // --------------------------------------------------
+
+    function functievoorschrift() {
+
+        let tekst = 'f(x) = ';
+
+        // a = 0
+        if (a === 0) {
+            return tekst + getal(b);
+        }
+
+        // Coëfficiënt van x
+        if (a === 1) {
+
+            tekst += 'x';
+
+        } else if (a === -1) {
+
+            tekst += '-x';
+
+        } else {
+
+            tekst += getal(a) + 'x';
+
+        }
+
+        // Constante term b
+        if (b > 0) {
+
+            tekst += ' + ' + getal(b);
+
+        } else if (b < 0) {
+
+            tekst += ' - ' + getal(Math.abs(b));
+
+        }
+
+        return tekst;
+    }
+
+
+    // --------------------------------------------------
+    // Getallen netjes voor LaTeX schrijven
+    // 1.5 wordt bijvoorbeeld 1{,}5
+    // --------------------------------------------------
+
+    function getal(waarde) {
+
+        if (Number.isInteger(waarde)) {
+            return waarde.toString();
+        }
+
+        return waarde
+            .toFixed(1)
+            .replace('.', '{,}');
+    }
+
+
+    // --------------------------------------------------
+    // Waarde naast slider in Nederlandse notatie
+    // --------------------------------------------------
+
+    function sliderGetal(waarde) {
+
+        return waarde
+            .toString()
+            .replace('.', ',');
+
+    }
+
+
+    // --------------------------------------------------
+    // Actuele functie in de grafiek
+    // --------------------------------------------------
+
+    board.create('text', [
+
+        -5.3,
+        5.2,
+
+        function() {
+            return '\\(' + functievoorschrift() + '\\)';
+        }
+
+    ], {
+
+        fontSize: 20,
+        fixed: true,
+        useMathJax: true
+
+    });
+
+
+    // --------------------------------------------------
+    // HTML-elementen
+    // --------------------------------------------------
+
+    const sliderA = document.getElementById('slider-a');
+    const sliderB = document.getElementById('slider-b');
+
+    const valueA = document.getElementById('value-a');
+    const valueB = document.getElementById('value-b');
+
+
+    // --------------------------------------------------
+    // Slider a
+    // --------------------------------------------------
+
+    sliderA.addEventListener('input', function() {
+
+        a = Number(this.value);
+
+        valueA.textContent = sliderGetal(a);
+
+        board.update();
+
+        if (window.MathJax) {
+            MathJax.typesetPromise();
+        }
+
+    });
+
+
+    // --------------------------------------------------
+    // Slider b
+    // --------------------------------------------------
+
+    sliderB.addEventListener('input', function() {
+
+        b = Number(this.value);
+
+        valueB.textContent = sliderGetal(b);
+
+        board.update();
+
+        if (window.MathJax) {
+            MathJax.typesetPromise();
+        }
+
+    });
+
+
+    // --------------------------------------------------
+    // Responsive
+    // --------------------------------------------------
+
+    window.addEventListener('resize', function() {
+
+        const width =
+            document.getElementById('jxgbox').clientWidth;
+
+        board.resizeContainer(
+            width,
+            width * 0.75
+        );
+
+        board.fullUpdate();
+
+    });
+
+</script>
+
+</body>
+
+</html>
