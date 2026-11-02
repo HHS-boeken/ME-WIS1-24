@@ -1,4 +1,4 @@
-# 1.2 Lineaire functies opstellen
+# 1.3 Lineaire functies opstellen
 
 :::{admonition} Theorie
 :class: tip, dropdown open
@@ -19,7 +19,7 @@ Deze gegevens kunnen op verschillende manieren gegeven zijn:
 
 :::
 
-## 1.2.1 Twee punten van de grafiek
+## 1.3.1 Twee punten van de grafiek
 
 :::{admonition} Voorbeeld 1
 :class: dropdown
@@ -183,7 +183,7 @@ $$
 :::
 ::::
 
-## 1.2.2 Een punt van de grafiek en de richtingscoëfficiënt
+## 1.3.2 Een punt van de grafiek en de richtingscoëfficiënt
 
 :::{admonition} Voorbeeld 2
 :class: dropdown

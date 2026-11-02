@@ -12,7 +12,12 @@ parts:
         sections:
         - file: 2_Functies/H1_Lineaire_functies/Lineaire_functies_en_grafieken_opgaven.md
         - file: 2_Functies/H1_Lineaire_functies/Lineaire_functies_en_grafieken_uitwerkingen.md
-
+     
+      - file: 2_Functies/H1_Lineaire_functies/Transformaties_van_lineaire_functies.md
+        sections:
+        - file: 2_Functies/H1_Lineaire_functies/Transformaties_van_lineaire_functies_opgaven.md
+        - file: 2_Functies/H1_Lineaire_functies/Transformaties_van_lineaire_functies_uitwerkingen.md  
+     
       - file: 2_Functies/H1_Lineaire_functies/Lineaire_functies_opstellen.md
         sections:
         - file: 2_Functies/H1_Lineaire_functies/Lineaire_functies_opstellen_opgaven.md
@@ -23,15 +28,81 @@ parts:
         - file: 2_Functies/H1_Lineaire_functies/Snijpunten_van_lineaire_functies_opgaven.md
         - file: 2_Functies/H1_Lineaire_functies/Snijpunten_van_lineaire_functies_uitwerkingen.md
 
-      - file: 2_Functies/H1_Lineaire_functies/Transformaties_van_lineaire_functies.md
-        sections:
-        - file: 2_Functies/H1_Lineaire_functies/Transformaties_van_lineaire_functies_opgaven.md
-        - file: 2_Functies/H1_Lineaire_functies/Transformaties_van_lineaire_functies_uitwerkingen.md  
-
     - file: 2_Functies/H2_Kwadratische_functies/Kwadratische_functies.md
+      sections:
+
+      - file: 2_Functies/H2_Kwadratische_functies/Kwadratische_functies_en_grafieken.md
+        sections:
+        - file: 2_Functies/H2_Kwadratische_functies/Kwadratische_functies_en_grafieken_opgaven.md
+        - file: 2_Functies/H2_Kwadratische_functies/Kwadratische_functies_en_grafieken_uitwerkingen.md
+      
+      - file: 2_Functies/H2_Kwadratische_functies/Transformaties_van_kwadratische_functies.md
+        sections:
+        - file: 2_Functies/H2_Kwadratische_functies/Transformaties_van_kwadratische_functies_opgaven.md
+        - file: 2_Functies/H2_Kwadratische_functies/Transformaties_van_kwadratische_functies_uitwerkingen.md
+      
+      - file: 2_Functies/H2_Kwadratische_functies/Kwadratische_functies_opstellen.md
+        sections:
+        - file: 2_Functies/H2_Kwadratische_functies/Kwadratische_functies_opstellen_opgaven.md
+        - file: 2_Functies/H2_Kwadratische_functies/Kwadratische_functies_opstellen_uitwerkingen.md
+
+      - file: 2_Functies/H2_Kwadratische_functies/Snijpunten_van_kwadratische_functies.md
+        sections:
+        - file: 2_Functies/H2_Kwadratische_functies/Snijpunten_van_kwadratische_functies_opgaven.md
+        - file: 2_Functies/H2_Kwadratische_functies/Snijpunten_van_kwadratische_functies_uitwerkingen.md
+
+
+
     - file: 2_Functies/H3_Machtsfuncties/Machtsfuncties.md
+
     - file: 2_Functies/H4_Wortel_functies/Wortel_functies.md
+      sections:
+
+      - file: 2_Functies/H4_Wortel_functies/Wortel_functies_en_grafieken.md
+        sections:
+        - file: 2_Functies/H4_Wortel_functies/Wortel_functies_en_grafieken_opgaven.md
+        - file: 2_Functies/H4_Wortel_functies/Wortel_functies_en_grafieken_uitwerkingen.md
+      
+      - file: 2_Functies/H4_Wortel_functies/Transformaties_van_Wortel_functies.md
+        sections:
+        - file: 2_Functies/H4_Wortel_functies/Transformaties_van_Wortel_functies_opgaven.md
+        - file: 2_Functies/H4_Wortel_functies/Transformaties_van_Wortel_functies_uitwerkingen.md
+      
+      - file: 2_Functies/H4_Wortel_functies/Wortel_functies_opstellen.md
+        sections:
+        - file: 2_Functies/H4_Wortel_functies/Wortel_functies_opstellen_opgaven.md
+        - file: 2_Functies/H4_Wortel_functies/Wortel_functies_opstellen_uitwerkingen.md
+
+      - file: 2_Functies/H4_Wortel_functies/Snijpunten_van_Wortel_functies.md
+        sections:
+        - file: 2_Functies/H4_Wortel_functies/Snijpunten_van_Wortel_functies_opgaven.md
+        - file: 2_Functies/H4_Wortel_functies/Snijpunten_van_Wortel_functies_uitwerkingen.md
+
     - file: 2_Functies/H5_Goniometrische_functies/Goniometrische_functies.md
+      sections:
+      
+      - file: 2_Functies/H5_Goniometrische_functies/Snijpunten_van_goniometrische_functies.md
+    
     - file: 2_Functies/H6_Exponentiele_functies/Exponentiele_functies.md
     - file: 2_Functies/H7_Logaritmische_functies/Logaritmische_functies.md
     - file: 2_Functies/H8_Gebroken_functies/Gebroken_functies.md
+
+  - caption: Differentiaalrekening
+    chapters:
+    - file: 3_Differentiaalrekening/H1_Verandering/Verandering.md
+      sections:
+
+      - file: 3_Differentiaalrekening/H1_Verandering/Totale_verandering.md
+        sections:
+        - file: 3_Differentiaalrekening/H1_Verandering/Totale_verandering_opgaven.md
+        - file: 3_Differentiaalrekening/H1_Verandering/Totale_verandering_uitwerkingen.md
+
+      - file: 3_Differentiaalrekening/H1_Verandering/Gemiddelde_verandering.md  
+        sections:
+        - file: 3_Differentiaalrekening/H1_Verandering/Gemiddelde_verandering_opgaven.md
+        - file: 3_Differentiaalrekening/H1_Verandering/Gemiddelde_verandering_uitwerkingen.md
+
+      - file: 3_Differentiaalrekening/H1_Verandering/Lokale_verandering.md
+        sections:
+        - file: 3_Differentiaalrekening/H1_Verandering/Lokale_verandering_opgaven.md
+        - file: 3_Differentiaalrekening/H1_Verandering/Lokale_verandering_uitwerkingen.md
