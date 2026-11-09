@@ -83,9 +83,9 @@ parts:
       
       - file: 2_Functies/H5_Goniometrische_functies/Snijpunten_van_goniometrische_functies.md
     
-    - file: 2_Functies/H6_Exponentiele_functies/Exponentiele_functies.md
-    - file: 2_Functies/H7_Logaritmische_functies/Logaritmische_functies.md
-    - file: 2_Functies/H8_Gebroken_functies/Gebroken_functies.md
+    #- file: 2_Functies/H6_Exponentiele_functies/Exponentiele_functies.md
+    #- file: 2_Functies/H7_Logaritmische_functies/Logaritmische_functies.md
+    #- file: 2_Functies/H8_Gebroken_functies/Gebroken_functies.md
 
   - caption: Differentiaalrekening
     chapters:
