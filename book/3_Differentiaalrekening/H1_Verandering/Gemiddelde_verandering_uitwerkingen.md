@@ -2,7 +2,7 @@
 
 <hr style="border:2px solid #9EA700">
 
-### Opgave 1.2.1a
+## Opgave 1.2.1a
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -68,7 +68,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1b
+## Opgave 1.2.1b
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -129,7 +129,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1c
+## Opgave 1.2.1c
 
 ::::{admonition} Antwoord 
 :class: important, dropdown
@@ -190,7 +190,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1d
+## Opgave 1.2.1d
 
 ::::{admonition} Antwoord 
 :class: important, dropdown
@@ -251,7 +251,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1e
+## Opgave 1.2.1e
 
 ::::{admonition} Antwoord 
 :class: important, dropdown
@@ -314,7 +314,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1f
+## Opgave 1.2.1f
 
 ::::{admonition} Antwoord 
 :class: important, dropdown
@@ -377,7 +377,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1g
+## Opgave 1.2.1g
 
 ::::{admonition} Antwoord 
 :class: important, dropdown
@@ -440,7 +440,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1h
+## Opgave 1.2.1h
 
 ::::{admonition} Antwoord 
 :class: important, dropdown
@@ -503,7 +503,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1i
+## Opgave 1.2.1i
 
 ::::{admonition} Antwoord 
 :class: important, dropdown
@@ -566,7 +566,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1j
+## Opgave 1.2.1j
 
 ::::{admonition} Antwoord 
 :class: important, dropdown
@@ -630,7 +630,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.2a
+## Opgave 1.2.2a
 
 ::::{admonition} Antwoord 
 :class: important, dropdown
@@ -692,7 +692,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.2b
+## Opgave 1.2.2b
 
 ::::{admonition} Antwoord 
 :class: important, dropdown
@@ -754,7 +754,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.2c
+## Opgave 1.2.2c
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -815,7 +815,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.2d
+## Opgave 1.2.2d
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -877,7 +877,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.2e
+## Opgave 1.2.2e
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -941,7 +941,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.2f
+## Opgave 1.2.2f
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -1005,7 +1005,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.2g
+## Opgave 1.2.2g
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -1069,7 +1069,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.2h
+## Opgave 1.2.2h
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -1133,7 +1133,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.2i
+## Opgave 1.2.2i
 
 ::::{admonition} Antwoord 
 :class: important, dropdown
@@ -1198,7 +1198,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.2j
+## Opgave 1.2.2j
 
 ::::{admonition} Antwoord
 :class: important, dropdown
