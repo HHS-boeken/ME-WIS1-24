@@ -1,4 +1,4 @@
-## 1.2 Gemiddelde verandering
+# 1.2 Gemiddelde verandering
 
 :::{admonition} Theorie
 :class: tip, dropdown open
