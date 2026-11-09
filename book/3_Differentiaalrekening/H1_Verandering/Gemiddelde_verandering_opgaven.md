@@ -2,7 +2,7 @@
 
 <hr style="border:2px solid #9EA700">
 
-### Opgave 1.2.1a
+## Opgave 1.2.1a
 
 Gegeven is de functie:
 
@@ -14,7 +14,7 @@ Bereken het differentiequotiënt op het interval $[1,4]$.
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1b
+## Opgave 1.2.1b
 
 Gegeven is de functie:
 
@@ -38,7 +38,7 @@ Bereken het differentiequotiënt op het interval $[1,3]$.
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1d
+## Opgave 1.2.1d
 
 Gegeven is de functie:
 
@@ -50,7 +50,7 @@ Bereken het differentiequotiënt op het interval $[2,5]$.
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1e
+## Opgave 1.2.1e
 
 Gegeven is de functie:
 
@@ -62,7 +62,7 @@ Bereken het differentiequotiënt op het interval $[1,4]$.
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1f
+## Opgave 1.2.1f
 
 Gegeven is de functie:
 
@@ -74,7 +74,7 @@ Bereken het differentiequotiënt op het interval $[-1,2]$.
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1g
+## Opgave 1.2.1g
 
 Gegeven is de functie:
 
@@ -86,7 +86,7 @@ Bereken het differentiequotiënt op het interval $[-2,3]$.
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1h
+## Opgave 1.2.1h
 
 Gegeven is de functie:
 
@@ -98,7 +98,7 @@ Bereken het differentiequotiënt op het interval $[-3,2]$.
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1i
+## Opgave 1.2.1i
 
 Gegeven is de functie:
 
@@ -110,7 +110,7 @@ Bereken het differentiequotiënt op het interval $[-1,4]$.
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1j
+## Opgave 1.2.1j
 
 Gegeven is de functie:
 
@@ -122,7 +122,7 @@ Bereken het differentiequotiënt op het interval $[-2,3]$.
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.2a
+## Opgave 1.2.2a
 
 Gegeven is de functie:
 
@@ -240,11 +240,11 @@ $$
 
 Bereken het differentiequotiënt op het interval $[-1,-1+h]$. Schrijf je antwoord zo eenvoudig mogelijk.
 
-# Opgave Les
+## Opgave Les
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.
+## Opgave 1.
 
 Een mobiele robot beweegt langs een rechte baan. De positie van de robot wordt beschreven door:
 
@@ -258,7 +258,7 @@ Bereken met het **differentiequotiënt** de gemiddelde snelheid van de robot op 
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 2.
+## Opgave 2.
 
 Tijdens een test wordt de temperatuur van een batterij gemeten. De temperatuur wordt beschreven door:
 
@@ -272,7 +272,7 @@ Bereken met het **differentiequotiënt** de gemiddelde temperatuurverandering pe
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 3.
+## Opgave 3.
 
 De positie van het uiteinde van een robotarm wordt beschreven door:
 
@@ -286,7 +286,7 @@ Bepaal **met het differentiaalquotiënt en de limietdefinitie** de momentane sne
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.
+## Opgave 4.
 
 Bij het testen van een actuator wordt de uitgeoefende kracht beschreven door:
 
@@ -300,7 +300,7 @@ Bepaal **met het differentiaalquotiënt en de limietdefinitie** een formule voor
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 5.
+## Opgave 5.
 
 Een positiesensor zet een verplaatsing om in een elektrisch spanningssignaal. Het verband tussen de positie en de uitgangsspanning wordt benaderd door:
 
@@ -314,7 +314,7 @@ Bepaal de afgeleide $\dfrac{dU}{dx}$ met behulp van de **differentieerregels voo
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 6.
+## Opgave 6.
 
 Het uitgangssignaal van een motorregelaar wordt tijdens een test beschreven door:
 
@@ -328,7 +328,7 @@ Bepaal de afgeleide $\dfrac{u}{dx}$  met behulp van de **differentieerregels voo
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 7.
+## Opgave 7.
 
 Bij het kalibreren van een sensor wordt de uitgangsspanning beschreven door:
 
@@ -342,7 +342,7 @@ Bepaal de **vergelijking van de raaklijn** aan de grafiek van $U(x)$ in het punt
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 8.
+## Opgave 8.
 
 Bij het testen van een temperatuurregelsysteem wordt de temperatuur beschreven door:
 
