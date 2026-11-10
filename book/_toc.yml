@@ -129,6 +129,6 @@ parts:
       sections:
 
       - file: 3_Differentiaalrekening/Toepassingen_van_differentieren/Extreme_waarden.md
-        #sections: 
-        #- file: 3_Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel_opgaven.md
-        #- file: 3_Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel_uitwerkingen.md
+        sections: 
+        - file: 3_Differentiaalrekening/Toepassingen_van_differentieren/Extreme_waarden_opgaven.md
+        - file: 3_Differentiaalrekening/Toepassingen_van_differentieren/Extreme_waarden_uitwerkingen.md

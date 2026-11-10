@@ -1,4 +1,4 @@
-# 3.1 Lokale minima en maxima
+# 3.1 Extreme waarden
 
 ````{admonition} Theorie
 :class: tip, dropdown open
