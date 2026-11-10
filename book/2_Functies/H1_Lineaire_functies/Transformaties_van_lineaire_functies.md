@@ -1,1 +1,1 @@
-# 1.4 Transformaties van lineaire functies 
+# 1.2 Transformaties van lineaire functies 

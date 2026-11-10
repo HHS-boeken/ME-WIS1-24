@@ -1,6 +1,6 @@
-# 1.3 Snijpunten van lineaire functies 
+# 1.4 Snijpunten van lineaire functies 
 
-## 1.3.1 Snijpunt van een lineaire functie met de $x$-as
+## 1.4.1 Snijpunt van een lineaire functie met de $x$-as
 
 :::{admonition} Voorbeeld 1
 :class: dropdown
@@ -134,7 +134,7 @@ $$
 :::
 ::::
 
-## 1.3.2 Snijpunt van een lineaire functie met een horizontale lijn
+## 1.4.2 Snijpunt van een lineaire functie met een horizontale lijn
 
 :::{admonition} Voorbeeld 2
 :class: dropdown

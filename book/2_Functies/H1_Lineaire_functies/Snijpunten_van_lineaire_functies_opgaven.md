@@ -1,8 +1,8 @@
-# 1.3 Opgaven
+# 1.4 Opgaven
 
 <hr style="border:2px solid #9EA700">
 
-## Opgave 1.3.1a
+## Opgave 1.4.1a
 
 De lineaire functie $f$ wordt gegegeven door:
 
@@ -14,7 +14,7 @@ Bepaal het snijpunt van de grafiek van $f$ met de $x$-as.
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 1.3.1b
+## Opgave 1.4.1b
 
 De lineaire functie $f$ wordt gegegeven door:
 
